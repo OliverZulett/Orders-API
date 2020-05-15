@@ -3,7 +3,6 @@ module.exports = function (config) {
         testRunner: 'mocha',
         mochaOptions: {
             files: ['test/**/*.spec.ts'],
-            // opts: './test/mocha.opts',
             opts: './test/.mocharc.yml',
             ui: 'bdd',
             timeout: 35000,
