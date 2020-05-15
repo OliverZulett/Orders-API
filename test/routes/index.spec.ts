@@ -1,11 +1,12 @@
 import chai from 'chai'
-// import chaiHttp = require('chai-http')
 import chaiHttp from 'chai-http'
-
 import 'mocha'
 import app from '../../src/app'
+
 chai.use(chaiHttp)
+
 const expect = chai.expect
+
 describe('baseRoute', () => {
     it('should respond with HTTP 200 status', async () => {
         return chai
